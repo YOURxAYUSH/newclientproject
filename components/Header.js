@@ -1,0 +1,31 @@
+import React from 'react'
+import Image from 'next/image'
+import { Bungee_Tint } from "next/font/google"
+import TypedText from './typedtext';
+
+
+const bungeeTint = Bungee_Tint({ subsets: ["latin"], weight: "400" });
+const Header = () => {
+  return (
+    <div>
+      <div className="h-[35vh] w-full bg-gradient-to-r  from-[#00d4ff] via-[#4A69BD] to-[#090979]  text-neutral-200 flex items-center gap-2 ">
+        <div className="ml-20 ">
+          <Image width={230} height={340} src={"/second logo.png"} className="mb-8" alt="secureacademylogo" />
+        </div>
+        <div className="flex flex-col items-center gap-4 ">
+          <div className={`text-5xl text-red-500 font-extrabold ${bungeeTint.className}`}>
+            Secure Future Skill Academy
+          </div>
+          <div className="text-5xl text-blue-400 font-extrabold">
+            सुरक्षित भविष्य कौशल संस्थान
+          </div>
+          <div>
+            <TypedText firstText={"सुरक्षित भविष्य की ओर बढ़ें... "} secondText={"अपने करियर को नई ऊंचाइयों पर ले जाएं..."} thirdText={"व्यावसायिक कौशल सीखें, सफलता पाएं..."} fourthText={"आज सीखें, कल संवारें..."} fifthText={"ट्रेनिंग से जॉब तक – आपका सफर यहीं से शुरू होता है..."} className={"text-amber-400 font-bold text-xl"} />
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Header
