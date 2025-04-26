@@ -64,7 +64,7 @@ Contact Us
 </div>
 <div className="text-md gap-6 items-center text-black flex ">
 <img className="w-24  h-24" src="/second logo.png" alt="logo" ></img>
-<div className="w-[25vw]">Secure Future Skill Academy which is powered by "SFSA Secure Future Skill Academy LLP" is the name that is recognized for its commitment to providing high-quality training, skill development programs and a strong focus on student success </div>
+<div className="w-[25vw]">Secure Future Skill Academy which is powered by <strong>SFSA Secure Future Skill Academy </strong>LLP is the name that is recognized for its commitment to providing high-quality training, skill development programs and a strong focus on student success </div>
 </div>
 <div className="text-md  text-black ">
 Head Office: 120/1, Highway NH-30, Near Faridpur<br/>
