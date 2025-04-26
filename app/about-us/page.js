@@ -36,7 +36,7 @@ ABOUT Secure Future Skill Academy
 <section className='bg-gray-50 flex flex-col gap-20 w-full overflow-hidden h-fit pt-20 pb-30'>
 
 
-<div className='text-black  px-2 py-4 border-2 border-[whitesmoke] shadow-2xl rounded-xl ml-5 mr-5 text-2xl bg-white'>
+<div className='text-black  px-2 py-4 border-2 border-[whitesmoke] shadow-2xl rounded-xl ml-5 mr-5 text-2xl  bg-white'>
 At <strong>Secure Future Skill Academy</strong>, we are committed to shaping your future by providing high-quality, industry-relevant education. As an <strong>ISO certified </strong>and <strong>MCA registered </strong> institution, we specialize in offering online short-term courses designed to enhance your skills and prepare you for the demands of the modern workforce. Our diverse course offerings include <strong>Computer Courses, Airport Management, Tally, Digital Marketing, Software Development, and IT Training,</strong> ensuring that you gain the practical knowledge and expertise needed to excel in your chosen career path.
 </div>
 <div className='text-black  px-2 py-8 border-2 border-[whitesmoke] shadow-2xl rounded-xl ml-5 mr-5 text-2xl bg-white'>

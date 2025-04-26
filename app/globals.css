@@ -15,17 +15,17 @@
 .moving-text {
   display: inline-block;
   white-space: nowrap;
-  animation: moveRightToLeft 40s linear infinite;
-  animation-delay: 1ms;
+  animation: moveRightToLeft 30s linear infinite;
+  
   
 }
 
 @keyframes moveRightToLeft {
   0% {
-      transform: translateX(100%);
+      transform: translateX(0%);
   }
   100% {
-      transform: translateX(-100%);
+      transform: translateX(-50%);
   }
 } 
          

@@ -220,132 +220,137 @@ function Homepage() {
       
       <div>
       <div className="bg-blue-900 w-full h-fit px-20 py-4  z-10 border-2 border-blue-950 overflow-hidden text-[whitesmoke] font-bold text-2xl">
-<span className="moving-text">Payments are accepted only through the secure link on this website |  No other payment method is valid | Hurry! No-cost EMI options available | Limited Time Offer! </span>  
+<span className="moving-text">Payments are accepted only through the secure link on this website |  No other payment method is valid | Hurry! No-cost EMI options available | Limited Time Offer!  Payments are accepted only through the secure link on this website | No other payment method is valid | Hurry! No-cost EMI options available | Limited Time Offer!  </span>  
 </div>
-        <Framer images={ images } transition={{duration:10}} className="h-[100vh] w-full" />
+        <Framer images={ images } transition={{duration:10}} className="md:h-[100vh] h-[50vh] w-full" />
       </div>
-      <div className="  h-[90vh] w-full flex flex-col gap-10 pt-20 pb-20 justify-center items-center text-neutral-200 bg-gradient-to-r from-[#667eea] to-[#764ba2] ">
-       <div className="font-bold text-2xl text-blue-900 ">
+      <div className="  md:h-[90vh] h-[100vh] w-full flex flex-col gap-10 pt-20 pb-20 justify-center items-center text-neutral-200 bg-gradient-to-r from-[#667eea] to-[#764ba2] ">
+       <div className="font-bold md:text-2xl text-4xl md:ml-0 md:mr-0 ml-3 mr-3 md:mt-0 mt-8  text-blue-900 ">
        It is an ISO certified, government registered autonomous organization that provides vocational education .
        </div>
-       <div className="flex max-w-full gap-16">
-        <div className="flex flex-col ml-1 gap-5 w-[60vw]">
-        <div className={`  text-3xl font-bold text-fuchsia-800 ${bungeeTint.className}`}>
+       <div className=" flex md:flex-row flex-col p-3 max-w-full md:gap-16 gap-8">
+        <div className="flex flex-col md:ml-1 md:mr-0  ml-5 mr-5 gap-5 md:w-[60vw]">
+        <div className={` md:text-3xl  text-4xl font-bold  ${bungeeTint.className}`}>
         Welcome to Secure Future Skill Academy!
         </div>
-        <div className="text-[whitesmoke] font-semibold">
+        <div className="text-[whitesmoke] md:block hidden font-semibold">
       
         We are an ISO certified and MCA registered institute dedicated to providing high-quality online courses for skill development and vocational training. Our short-term courses are designed to help you enhance your skills and secure a brighter future in today’s competitive world. Join us today and take the first step towards a successful career with our expert-led programs and comprehensive training!
         </div>
         </div>
         <div className="overflow-hidden">
-       <Framer valueAnim={{x:"0%"}} transition={{ repeat: Infinity, duration: 6, ease: "linear" }} valueExit={{x:"-100%"}} valueInit={{x:"100%"}} className={" w-[30vw] h-[30vh]  border-2 border-black rounded-lg"} images={images2}/>
+       <Framer valueAnim={{x:"0%"}} transition={{ repeat: Infinity, duration: 6, ease: "linear" }} valueExit={{x:"-100%"}} valueInit={{x:"100%"}} className={" md:w-[30vw] md:h-[30vh] w-[80vw] h-[30vh] border-2 md:ml-0 ml-8 border-black rounded-lg"} images={images2}/>
+        </div>
+        <div className="text-[whitesmoke] md:hidden block font-semibold">
+      
+        We are an ISO certified and MCA registered institute dedicated to providing high-quality online courses for skill development and vocational training. Our short-term courses are designed to help you enhance your skills and secure a brighter future in today’s competitive world. Join us today and take the first step towards a successful career with our expert-led programs and comprehensive training!
         </div>
        </div>
     </div>
-    <div className="h-[40vh] w-full flex items-center  justify-between">
+    <div className="md:h-[40vh] h-[25vh] w-full flex items-center  justify-between">
      <div>
-      <img src="/gggg.jpg" alt="course" className={"w-[33vw] h-[40vh]"}/>
+      <img src="/gggg.jpg" alt="course" className={"w-[33vw] md:h-[40vh] h-[25vh]"}/>
       
      </div>
      <div>
-     <img src="/img.jpg" alt="course" className={"w-[33vw] h-[40vh]"}/>
+     <img src="/img.jpg" alt="course" className={"w-[34vw] md:h-[40vh] h-[25vh]"}/>
      </div>
      <div>
-     <img src="cdrdrd.jpg" alt="course" className={"w-[33vw] h-[40vh]"}/>
+     <img src="cdrdrd.jpg" alt="course" className={"w-[33vw] md:h-[40vh] h-[25vh]"}/>
      </div>
     </div>
-    <div className="h-fit w-full pt-10  ">
-      <div className={`text-5xl  align-middle ml-[33%] text-red-500 font-extrabold ${bungeeTint.className}`}>Our Courses :</div>
-     <div className="pb-20 pt-20">
+    <div className="h-fit w-full pt-10 overflow-hidden ">
+      <div className={`md:text-5xl text-4xl align-middle md:ml-[33%] ml-[20%] text-red-500 font-extrabold ${bungeeTint.className}`}>Our Courses :</div>
+     <div className= " overflow-hidden pb-20 pt-20">
       < Carousel images={images3}/></div>
     </div>
     <div className=" h-fit pt-10 pb-10 text-[whitesmoke] w-full flex flex-col items-center gap-10  bg-[radial-gradient(circle,rgba(63,94,251,1)_0%,rgba(252,70,107,1)_100%)] ">
       <div>
-        <div className="text-2xl font-bold  ">
+        <div className="text-2xl md:ml-0 md:mr-0 ml-6 mr-2 font-bold  ">
         Learn with Our Most Affordable Courses and Budget-Friendly Fees
         </div>
       </div>
-      <div className="flex gap-6 items-center ml-1 mr-1">
+      <div className="flex md:flex-row flex-col gap-6 items-center ml-1 mr-1">
     <div >
-     <img src="/certificationHVAC.jpg" alt="course" className={"w-[24vw] h-[40vh] rounded-md border-2 border-black"}/>
-     <div className="text-sm font-bold  ">
+     <img src="/certificationHVAC.jpg" alt="course" className={"md:w-[24vw] w-[80vw] h-[40vh] rounded-md border-2 border-black"}/>
+     <div className="md:text-sm text-2xl mt-2 md:mt-0 font-bold  ">
      Certificate in HVAC Technician
         </div>
      </div>
      <div>
-     <img src="/CertificationInHR.jpg" alt="course" className={"w-[24vw] h-[40vh] rounded-md border-2 border-black"}/>
-     <div className="text-sm font-bold  ">
+     <img src="/CertificationInHR.jpg" alt="course" className={"md:w-[24vw] md:ml-0 ml-5 w-[80vw] h-[40vh] rounded-md border-2 border-black"}/>
+     <div className="md:text-sm text-xl mt-2 md:mt-0 font-bold   ">
      Certificate in Human Resource Management
         </div>
      </div>
      <div>
-     <img src="/homescience.jpg" alt="course" className={"w-[24vw] h-[40vh] rounded-md border-2 border-black"}/>
-     <div className="text-sm font-bold  ">
+     <img src="/homescience.jpg" alt="course" className={"md:w-[24vw] w-[80vw] md:ml-0 ml-5 h-[40vh] rounded-md border-2 border-black"}/>
+     <div className="md:text-sm text-2xl mt-2 md:mt-0 font-bold   ">
      Advanced Diploma in Home Science
         </div>
      </div>
      <div>
-     <img src="/makeup.jpg" alt="course" className={"w-[24vw] h-[40vh] rounded-md border-2 border-black"}/>
-     <div className="text-sm font-bold  ">
+     <img src="/makeup.jpg" alt="course" className={"md:w-[24vw] w-[80vw] md:ml-0 ml-5 h-[40vh] rounded-md border-2 border-black"}/>
+     <div className="md:text-sm text-2xl mt-2 md:mt-0 font-bold   ">
      Basic 3-Month Online Makeup  Course
         </div>
      </div>
      </div>
     </div>
-    <div className=" flex items-center gap-12 h-fit p-20 w-full  bg-[radial-gradient(circle,rgba(63,94,251,1)_0%,rgba(252,70,107,1)_100%)]">
+    <div className=" flex md:flex-row flex-col items-center gap-12 h-fit md:p-20 pt-10 pb-10 pl-2 pr-2 w-full  bg-[radial-gradient(circle,rgba(63,94,251,1)_0%,rgba(252,70,107,1)_100%)]">
      <div className="flex flex-col gap-3 w-[90vw]">
-     <div className={`text-3xl font-extrabold text-[whitesmoke]`}>Secure Future Skill Academy</div>
-     <div><TypedText className={"text-2xl font-bold text-[whitesmoke]"} firstText={"Unlock Your Potential with Expert-Led Online Courses"} secondText={"Learn Anytime, Anywhere – Boost Your Career Today!"} thirdText={"Join Thousands of Students in Our Interactive Learning Hub"} fourthText={"Upgrade Your Skills with Industry-Recognized Certifications"} fifthText={"Your Future Starts Here – Explore Our Courses Now!"}/></div>
-     <div className="text-neutral-200 text-lg">Secure Future Skill Academy offers highly valuable online skill courses in India, making learning accessible, affordable, and flexible. These courses are designed to help individuals gain industry-relevant skills, enhance job opportunities, and stay competitive in today’s rapidly evolving job market.</div>
+     <div className={`text-3xl font-extrabold md:mb-0 mb-5 text-[whitesmoke]`}>Secure Future Skill Academy</div>
+     <div className="md:h-fit h-[7vh] mb-2 md:mb-0"><TypedText className={"text-2xl font-bold text-[whitesmoke]"} firstText={"Unlock Your Potential with Expert-Led Online Courses"} secondText={"Learn Anytime, Anywhere – Boost Your Career Today!"} thirdText={"Join Thousands of Students in Our Interactive Learning Hub"} fourthText={"Upgrade Your Skills with Industry-Recognized Certifications"} fifthText={"Your Future Starts Here – Explore Our Courses Now!"}/></div>
+     <div className="text-neutral-200 text-lg md:block hidden">Secure Future Skill Academy offers highly valuable online skill courses in India, making learning accessible, affordable, and flexible. These courses are designed to help individuals gain industry-relevant skills, enhance job opportunities, and stay competitive in today’s rapidly evolving job market.</div>
      </div>
      <div>
-      <img className="w-[50vw] h-fit rounded-lg border-2 border-black" alt="securefuture" src="/fffyf.jpg"></img>
+      <img className="md:w-[50vw] w-[90vw] h-fit rounded-lg border-2 border-black" alt="securefuture" src="/fffyf.jpg"></img>
      </div>
+     <div className="text-neutral-200  text-lg block md:hidden">Secure Future Skill Academy offers highly valuable online skill courses in India, making learning accessible, affordable, and flexible. These courses are designed to help individuals gain industry-relevant skills, enhance job opportunities, and stay competitive in today’s rapidly evolving job market.</div>
     </div>
-    <div className="h-fit w-full pt-10  ">
-      <div className={`text-5xl  align-middle ml-[25%] text-red-500 font-extrabold ${bungeeTint.className}`}>Admission Process :</div>
-     <div className="pb-20 pt-20">
-      < Carousel2 images={images4}/></div>
+    <div className="h-fit w-full pt-10 overflow-hidden ">
+      <div className={`md:text-5xl text-3xl align-middle md:ml-[25%] ml-[6%] text-red-500 font-extrabold ${bungeeTint.className}`}>Admission Process :</div>
+     <div className="pb-20 pt-20 overflow-hidden">
+      < Carousel2 images={images4} className="overflow-hidden"/></div>
     </div>
-    <div className="w-full h-fit p-10 mb-1 text-xl text-black border-2 border-dotted border-black">
+    <div className="w-full h-fit p-10 mb-1 md:text-xl text-sm text-black border-2 border-dotted border-black">
     Provide your educational and professional details and pay the registration fee. --&gt; Submit your required documents through the admission portal. --&gt; Once verified, pay your admission fee or choose no-cost EMI options.
     </div>
-<div className=" text-[whitesmoke] w-full  h-[150vh]  bg-[radial-gradient(circle,rgba(63,94,251,1)_0%,rgba(252,70,107,1)_100%)]">
+<div className=" text-[whitesmoke] w-full  md:h-[150vh] h-fit bg-[radial-gradient(circle,rgba(63,94,251,1)_0%,rgba(252,70,107,1)_100%)]">
 <div>
-  <img src="/explore.jpg" alt="securefuture" className="w-full h-[60vh]"></img>
+  <img src="/explore.jpg" alt="securefuture" className="w-full h-[40vh] md:block hidden md:h-[60vh]"></img>
 </div>
-<div className="text-3xl font-extrabold ml-40 mt-16">
+<div className="md:text-3xl text-2xl font-extrabold md:ml-40 md:mr-0 ml-7 mr-5 mt-16 md:pt-0 pt-10">
 Unlock Global Opportunities with University - Approved Course
 </div>
-<div className="flex gap-10 mt-20">
+<div className="flex md:flex-row flex-col gap-10 mt-20">
 <div className="flex flex-col items-center gap-2 ">
-  <img src="/barts.jpg" alt="securefuture" className="w-[30vw] h-[30vh] border-2 border-black rounded-xl ml-1 mr-1"></img>
+  <img src="/barts.jpg" alt="securefuture" className="md:w-[30vw] w-[80vw] h-[30vh] border-2 border-black rounded-xl ml-1 mr-1"></img>
   <div className="text-xl font-bold"> Bachelor Of Art ( BA ) </div>
   <div className="text-lg  font-bold">Duration : 03 Years</div>
 </div>
 <div className="flex flex-col items-center gap-2 ">
-  <img alt="securefuture" src="/bbaa.png" className="w-[30vw] h-[30vh] border-2 border-black rounded-xl ml-1 mr-1"></img>
+  <img alt="securefuture" src="/bbaa.png" className="md:w-[30vw] w-[80vw] h-[30vh] border-2 border-black rounded-xl ml-1 mr-1"></img>
   <div className="text-xl font-bold"> Bachelor Of Science ( BSC )  </div>
   <div className="text-xl font-bold">Duration : 03 Years</div>
 </div>
-<div className="flex flex-col items-center gap-2 ">
-  <img alt="securefuture" src="/bscs.jpg" className="w-[30vw] h-[30vh] border-2 border-black rounded-xl ml-1 mr-1"></img>
+<div className="flex flex-col  mb-10 md:mb-0 items-center gap-2 ">
+  <img alt="securefuture" src="/bscs.jpg" className="md:w-[30vw] w-[80vw]  h-[30vh] border-2 border-black rounded-xl ml-1 mr-1"></img>
   <div className="text-xl font-bold">  Business Administration ( BBA ) </div>
   <div className="text-xl font-bold">Duration : 03 Years</div>
 </div>
 </div>
 </div>
 <div>
-  <WhyChoose/>
+  <WhyChoose />
 </div>
 <div className="h-fit pt-20 w-full ">
-      <div className={`text-5xl  align-middle ml-[25%] text-red-500 font-extrabold ${bungeeTint.className}`}> We are certified by :</div>
+      <div className={`md:text-5xl text-3xl  align-middle md:ml-[25%] ml-[4%] text-red-500 font-extrabold ${bungeeTint.className}`}> We are certified by :</div>
      <div className="pb-30 pt-30">
       < Carousel2 images={images5}/></div>
     </div>
 <section className="mb-20 bg-[#fcfcfc] h-fit w-full gap-4 pb-30 flex flex-col justify-center items-center " >
-  <div className={`text-5xl  align-middle mb-10 text-red-500 font-extrabold ${bungeeTint.className}`}>FREQUENTLY ASKED QUESTIONS :</div>
+  <div className={`md:text-5xl text-2xl  mt-10 align-middle mb-10 text-red-500 font-extrabold ${bungeeTint.className}`}>FREQUENTLY ASKED QUESTIONS :</div>
 <FAQs/>
 </section>
 

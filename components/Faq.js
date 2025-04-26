@@ -50,13 +50,15 @@ const FAQs = () => {
   return (
     <div className="flex flex-col items-center gap-4">
       {faqs.map((faq, index) => (
-        <div key={index} className="w-[80vw]">
+        <div key={index} className="md:w-[80vw] w-[90vw]">
           <div
-            className="bg-white cursor-pointer text-2xl font-bold text-neutral-600 flex justify-between items-center rounded-xl border-2 border-[whitesmoke] shadow-2xl px-16 py-6"
+            className="bg-white cursor-pointer text-2xl font-bold text-neutral-600 flex justify-between items-center rounded-xl border-2 border-[whitesmoke] shadow-2xl md:px-16 px-10 py-6"
             onClick={() => toggleFAQ(index)}
           >
-            <div>{faq.question}</div>
-            <div className="text-3xl">{openIndex === index  ? "−" : "+"}</div>
+            <div className="flex justify-between items-center  ">
+            <div className="md:w-[70vw] w-[69vw]">{faq.question}</div>
+            <div className="text-3xl ">{openIndex === index  ? "−" : "+"}</div>
+            </div>
           </div>
           {openIndex === index && (
             <div className="bg-gray-100 text-lg text-neutral-700 px-16 py-4 mt-2 rounded-xl  border-2 border-[black]">

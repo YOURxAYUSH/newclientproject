@@ -27,7 +27,7 @@ const Carousel2=({images})=>{
               alt={img.title}
               className="w-64 h-64 border-2 border-[whitesmoke] shadow object-cover cursor-pointer rounded-xl"
               whileTap={{ scale: 0.9 }}
-              onClick={() => setSelectedImage(img)}
+            
               
             /> 
              <p className="mt-2 w-64 overflow-hidden text-center font-semibold text-xl">{img.title}</p>
